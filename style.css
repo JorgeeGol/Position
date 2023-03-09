@@ -1,0 +1,41 @@
+html{
+    padding-bottom: 1000px;
+}
+
+div{
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.statico{
+    top: 10;
+    background-color: white;
+}
+
+.relative{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+}
+
+.absolute{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: blue;
+}
+
+.fixed{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(0, 255, 21);
+}
+
+.sticky{
+    top: 10px;
+    position: sticky;
+    background-color: blueviolet;
+}
+
